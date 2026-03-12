@@ -6,10 +6,13 @@
     width: 500px;
     border: 1px solid black;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
-    border: 1px solid black;
+    border: 1px solid darkgray;
     background-color: darkgray;
 }
 header h1 {
@@ -21,7 +24,8 @@ header h1 {
 }
 
 main {
-    border: 1px solid black;
+    flex: 1;
+    border: 1px solid plum;
     background-color: plum;
     height: auto;
     display: flex;
@@ -52,7 +56,7 @@ video {
     overflow: hidden;
 }
 footer {
-    border: 1px solid black;
+    border: 1px solid darkgrey;
     text-align: center;
     background-color: darkgray;
 }
@@ -63,5 +67,10 @@ footer {
         width: 100%;
         margin: 0;
     }
-
+    body {
+        margin: 0;
+    }
+    .main1 {
+        height: 100%;
+    }
 }
