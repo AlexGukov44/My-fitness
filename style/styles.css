@@ -60,7 +60,14 @@ footer {
     text-align: center;
     background-color: darkgray;
 }
-
+footer p {
+    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    font-size: 10px;
+}
 
 @media (max-width: 500px) {
     .wrapper {
@@ -69,8 +76,5 @@ footer {
     }
     body {
         margin: 0;
-    }
-    .main1 {
-        height: 100%;
     }
 }
