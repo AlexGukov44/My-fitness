@@ -46,10 +46,22 @@ video {
     width: 60%;
     height: auto;
     max-width: 100%;
-    margin: 20px;;
+    margin: 20px;
+    background-color: darkgray;
+    border-radius: 10px;
+    overflow: hidden;
 }
 footer {
     border: 1px solid black;
     text-align: center;
     background-color: darkgray;
+}
+
+
+@media (max-width: 500px) {
+    .wrapper {
+        width: 100%;
+        margin: 0;
+    }
+
 }
