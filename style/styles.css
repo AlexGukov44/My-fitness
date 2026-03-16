@@ -48,11 +48,25 @@ main a {
     background-color:#6495ed;
     color: antiquewhite;
 }
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+figcaption {
+    background-color: gold;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
 video {
     width: 60%;
     height: auto;
     max-width: 100%;
-    margin: 20px;
+    margin: 20px auto;
+    margin-top: 5px;
     background-color: darkgray;
     border-radius: 10px;
     overflow: hidden;
@@ -62,6 +76,40 @@ footer {
     text-align: center;
     background-color: darkgray;
 }
+.social-icons {
+    padding-top: 5px;
+}
+.social-icons a {
+    text-decoration: none;
+}
+a img {
+    background-color: rgb(42, 55, 232);
+    border-radius: 50%;
+    width: 30px;
+    margin: 10px;
+}
+
+.error {
+    background-color: blueviolet;
+    color: antiquewhite;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    margin: 30px auto;
+    padding-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:#6495ed;
+    color: antiquewhite;
+}
 footer p {
     padding: 5px;
     white-space: nowrap;
@@ -69,6 +117,9 @@ footer p {
     text-overflow: ellipsis;
     width: 100%;
     font-size: 10px;
+}
+footer a {
+    text-decoration: none;
 }
 
 @media (max-width: 500px) {
